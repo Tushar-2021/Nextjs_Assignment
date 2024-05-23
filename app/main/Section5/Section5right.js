@@ -14,7 +14,7 @@ const Section5right = () => {
       </div>
       <div className='justify-center px-8 py-4'>
         <Image src={Fitcook} className='absolute ml-10' alt="/tem" />
-        <Image src={figmaFit} className='relative mt-[75%] w-[92%] rounded-lg' alt="/tem1" />
+        <Image src={figmaFit} className='relative mt-[55%] w-[50%] rounded-lg ml-3' alt="/tem1" />
       </div>
     </div>
   )

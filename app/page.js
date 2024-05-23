@@ -3,6 +3,7 @@ import CompleteSec1 from "./main/Section1/CompleteSec1";
 import Section3 from "./main/Section3/Section3";
 import Section4 from "./main/Section4/Section4";
 import CompleteSection5 from "./main/Section5/CompleteSection5";
+import SectionA from "./main/Section6/SectionA";
 
 import CommonQuestion from "./main/commonQuestion/CommonQuestion";
 
@@ -23,6 +24,9 @@ export default function Home() {
         <CompleteSection5 />
 
       </div>
+      {/* <div className="mb-16">
+        <SectionA />
+      </div> */}
       <div className="mb-16">
         <CommonQuestion />
 
