@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Fitcook from "../../assets/fitcook.jpg";
-import FigmaFit from "../../assets/figma.jpg"
+import FigmaFit from "../../assets/Figmafit.jpg"
 
 const Section5right = () => {
   return (

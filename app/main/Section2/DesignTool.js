@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import figmaImage from "../../assets/FigmaImage.jpg";
+import FigmaImage from '../../assets/Figma.jpg';
 import miroImage from "../../assets/MiroImage.jpg";
 import adobeXDImage from "../../assets/AdobeXDImage.jpg";
 import Vector2 from "../../assets/Vector.jpg";
@@ -12,7 +12,7 @@ const DesignTool = () => {
       <div>
         <div className="flex mr-5">
           <div className="text-center flex flex-col items-center justify-center w-[116px] h-[116px]" style={{ backgroundImage: `url(${Vector2.src})`, backgroundSize: 'cover' }}>
-            <Image src={figmaImage} alt="Figma" width={50} height={50} className="rounded-full" />
+            <Image src={FigmaImage} alt="Figma" width={50} height={50} className="rounded-full" />
             <span className="text-white">Figma</span>
           </div>
           <div className="text-center flex flex-col items-center justify-center w-[116px] h-[116px]" style={{ backgroundImage: `url(${Vector2.src})`, backgroundSize: 'cover' }}>
