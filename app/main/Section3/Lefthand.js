@@ -4,10 +4,10 @@ import React from 'react';
 const Lefthand = () => {
   return (
     <div className="flex flex-col items-center md:items-start">
-      <p className="text-2xl text-pretty font-semibold py-3 px-2 text-center md:text-left">
+      <p className="text-2xl text-pretty sm:text-xl font-semibold py-3 px-2 text-center md:text-left">
         Communicate your design like <br /> never before
       </p>
-      <p className="text-2xl font-bold text-red-600 py-3 px-2 text-center md:text-left">
+      <p className="text-2xl font-bold sm:text-lg text-red-600 py-3 px-2 text-center md:text-left">
         Create Interactive design with one click & <br /> tell your story
       </p>
       <div className="md:content-center">
