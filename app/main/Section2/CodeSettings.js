@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import typescriptImage from "../../assets/TypescriptImage.jpg";
+import typescriptImage from "../../assets/TypeScript.jpg";
 import tailwindImage from "../../assets/TailwindImage.jpg";
 import javascriptImage from "../../assets/JavaScriptImage.jpg";
 import cssImage from "../../assets/CSSImage.jpg";

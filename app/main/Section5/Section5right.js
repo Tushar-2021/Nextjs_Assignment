@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Fitcook from "../../assets/fitcook.jpg";
-import figmaFit from "../../assets/figmafit.jpg"
+import FigmaFit from "../../assets/figma.jpg"
 
 const Section5right = () => {
   return (
@@ -14,7 +14,7 @@ const Section5right = () => {
         <div className='relative w-full max-w-md'>
           <Image src={Fitcook} className='w-full h-auto rounded-xl' alt="Fitcook" />
           <div className='absolute bottom-[9%] right-[50%] w-full transform translate-x-1/2 translate-y-1/4'>
-            <Image src={figmaFit} className='w-full h-full rounded-xl' alt="Figma Fit" />
+            <Image src={FigmaFit} className='w-full h-full rounded-xl' alt="Figma Fit" />
           </div>
         </div>
       </div>
