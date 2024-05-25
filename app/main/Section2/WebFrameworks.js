@@ -20,7 +20,7 @@ const WebFrameworks = () => {
         </div>
         <div className="flex">
 
-          <div className="text-center flex flex-col items-center justify-center w-[116px] h-[116px]" style={{ backgroundImage: `url(${Vector2.src})`, backgroundSize: 'cover' }}>
+          <div className="text-center flex flex-col items-center justify-center w-[116px] h-[116px] sm:w-[50px]" style={{ backgroundImage: `url(${Vector2.src})`, backgroundSize: 'cover' }}>
             <Image src={reactImage} alt="React" width={50} height={50} className="rounded-full" />
             <span className="text-white">React</span>
           </div>
