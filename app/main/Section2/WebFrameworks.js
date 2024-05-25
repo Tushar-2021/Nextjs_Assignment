@@ -12,10 +12,11 @@ const WebFrameworks = () => {
     <div className="flex flex-col items-center mt-4">
       <h2 className="text-white text-lg font-bold mb-4">Web Frameworks</h2>
       <div className='flex flex-col'>
-        <div className='flex flex-row items-center justify-center w2/3'>
-          <p className='text-lg text-pink-500'>Get Your  design live codes
-            <br /> with latest frameworks <span><Image src={Line1} alt="/" /></span> </p>
-
+        <div className='grid grid-cols-1 items-center justify-center w-2/3'>
+          <div className='flex items-center'>
+            <p className='text-lg text-pink-500'>Get Your design live codes with latest frameworks</p>
+            <Image src={Line1} alt="/" className='absolute ml-[12.5rem] mt-[115px]' />
+          </div>
         </div>
         <div className="flex">
 

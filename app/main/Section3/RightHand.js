@@ -1,4 +1,4 @@
-// RightHand.js
+
 import React from 'react';
 import Image from 'next/image';
 import Designer from "../../assets/Designer_person.jpg";

@@ -9,7 +9,7 @@ import Vector2 from "../../assets/Vector.jpg"
 const CodeSettings = () => {
 
   return (
-    <div className="flex flex-col items-center mt-4">
+    <div className="flex flex-col items-center mt-4 ml-10 float-right">
       <h2 className="text-white text-lg font-bold mb-4">Code Settings</h2>
       <div className="flex flex-col">
         <div className='flex flex-row '>

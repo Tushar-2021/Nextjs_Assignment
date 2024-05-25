@@ -1,4 +1,4 @@
-// Section3.js
+
 import React from 'react';
 import RightHand from './RightHand';
 import Lefthand from './Lefthand';

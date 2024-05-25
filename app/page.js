@@ -29,12 +29,12 @@ export default function Home() {
         <CompleteSection5 />
 
       </div>
-       <div className="mb-16">
+      <div className="mb-16">
         <SectionA />
-       
-      </div> 
+
+      </div>
       <div className=" mt-6">
-      <Section6B/>
+        <Section6B />
 
       </div>
       <div className="mb-16">

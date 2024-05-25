@@ -1,10 +1,11 @@
 "use client";
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import NavBelow from './NavBelow';
 import MobileNav from './MobileNav';
 import { FiSearch, FiHeart, FiUser, FiMenu } from 'react-icons/fi';
-
+import logo from "../assets/platUi.jpg"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -19,8 +20,8 @@ const Navbar = () => {
           <div className="flex justify-between items-center py-5">
             <div className="flex items-center space-x-4">
               <a href="#" className="flex items-center text-white">
-                <img src="/favicon.ico" alt="Logo" className="h-8 w-8 mr-2" />
-                <span className="font-bold">MyApp</span>
+                <Image src={logo} alt="Logo" className="h-8 w-8 mr-2" />
+
               </a>
             </div>
             <div className="hidden md:flex items-center space-x-1">
