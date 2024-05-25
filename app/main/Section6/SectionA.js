@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Working1 from "../../assets/workin1.jpg"
-import Workin2 from "../../assets/workin2.jpg"
+import Workin2 from "../../assets/image_work.jpg"
 
 const SectionA = () => {
   return (
