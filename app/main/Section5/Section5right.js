@@ -5,16 +5,18 @@ import figmaFit from "../../assets/figmafit.jpg"
 
 const Section5right = () => {
   return (
-    <div className='ml-10 mt-20 mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8'>
+    <div className='mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8'>
       <div className='px-4'>
-        <p className='text-4xl py-3 md:mt-2 md:mb-2'>We adapt with any design tools you want </p>
-        <p className='text-lg'>Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. urna quisque cursus
-          praesent imperdiet velit duis morbi sit</p>
+        <p className='text-4xl py-3 md:mt-2 md:mb-2'>We adapt with any design tools you want</p>
+        <p className='text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. urna quisque cursus praesent imperdiet velit duis morbi sit</p>
       </div>
-      <div className='justify-center px-8 py-4'>
-        <Image src={Fitcook} className='absolute ml-10' alt="/tem" />
-        <Image src={figmaFit} className='relative mt-[55%] w-[50%] rounded-lg ml-3' alt="/tem1" />
+      <div className='relative flex justify-center items-center mt-8'>
+        <div className='relative w-full max-w-md'>
+          <Image src={Fitcook} className='w-full h-auto rounded-xl' alt="Fitcook" />
+          <div className='absolute bottom-[9%] right-[50%] w-full transform translate-x-1/2 translate-y-1/4'>
+            <Image src={figmaFit} className='w-full h-full rounded-xl' alt="Figma Fit" />
+          </div>
+        </div>
       </div>
     </div>
   )
