@@ -8,7 +8,7 @@ const RightHand = () => {
   return (
     <div className="flex items-center md:flex-row justify-center md:items-stretch mt-5">
       <div className="flex flex-col items-center px-2">
-        <Image src={Designer} alt="Designer" className="rounded-md h-20 w-20" />
+        <Image src={Designer} alt="Designer" className="rounded-md h-20 w-20 sm:h-15 " />
         <button
           type="button"
           className="shadow-white text-pink-500 font-medium rounded-full text-sm px-3 py-2 mb-2 dark:bg-white dark:text-white bg-white mt-1"
@@ -16,7 +16,7 @@ const RightHand = () => {
           Designer
         </button>
       </div>
-      <Image src={Laptop} alt="Laptop" className="rounded-md w-full md:w-[50%] sm:w-[30%] mt-5 md:mb-0" />
+      <Image src={Laptop} alt="Laptop" className="rounded-md w-full sm:w-2/3 mt-5 md:mb-0" />
       <div className="flex flex-col items-center px-2">
         <Image src={Designer} alt="Designer" className="rounded-md h-20 w-20" />
         <button

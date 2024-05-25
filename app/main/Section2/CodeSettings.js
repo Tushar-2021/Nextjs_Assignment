@@ -13,7 +13,7 @@ const CodeSettings = () => {
       <h2 className="text-white text-lg font-bold mb-4">Code Settings</h2>
       <div className="flex flex-col">
         <div className='flex flex-row '>
-          <div className="text-center flex flex-col items-center justify-center w-[116px] h-[116px]" style={{ backgroundImage: `url(${Vector2.src})`, backgroundSize: 'cover' }}>
+          <div className="text-center flex flex-col items-center justify-center w-[116px] h-[116px] " style={{ backgroundImage: `url(${Vector2.src})`, backgroundSize: 'cover' }}>
             <Image src={typescriptImage} alt="TypeScript" width={50} height={50} className="rounded-full" />
             <span className=" text-sm text-yellow-600">TypeScript</span>
           </div>
